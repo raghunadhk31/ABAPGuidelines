@@ -37,6 +37,27 @@ Table Maintenance Generator
 Table Updated from the program code lines
 • Based on the data to be updated (Insert, Update or Modify), call the method UPDATE_FIELDS of the class ZCL_GGL_DEV_TABLE_AUDIT_TRAIL
 
+Sample Logic:
+zcl_ggl_dev_table_audit_trail=>update_fields(
+ EXPORTING
+ iv_mode = zcl_ggl_dev_table_audit_trail=>c_mode-insert
+ CHANGING
+ ct_data = lt_dbtab
+).
+zcl_ggl_dev_table_audit_trail=>update_fields(
+ EXPORTING
+ iv_mode = zcl_ggl_dev_table_audit_trail=>c_mode-update
+ CHANGING
+ ct_data = lt_dbtab
+).
+zcl_ggl_dev_table_audit_trail=>update_fields(
+ EXPORTING
+ iv_mode = zcl_ggl_dev_table_audit_trail=>c_mode-modify
+ CHANGING
+ ct_data = lt_dbtab
+).
+
+
 
 
 
