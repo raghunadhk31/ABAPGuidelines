@@ -30,6 +30,14 @@ Table Maintenance Generator
 • Include the program in the top main program on the function group
 • Program ZGGL_DEV_DB_AUDIT_TRAIL_HIDE
 
+Table Maintenance Generator
+• Add the module in the screen PBO
+
+
+Table Updated from the program code lines
+• Based on the data to be updated (Insert, Update or Modify), call the method UPDATE_FIELDS of the class ZCL_GGL_DEV_TABLE_AUDIT_TRAIL
+
+
 
 
 
