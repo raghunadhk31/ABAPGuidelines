@@ -7,6 +7,8 @@ Contents
 Add fields to the Custom DB Table
 • While creating the custom DB table, include the Audit trail structure ZGGL_DEV_STR_AUDIT_TRAIL
 
+
+
 Table Maintenance Generator
 • To be able to update these fields for the table maintenance, create the event
 
