@@ -5,25 +5,18 @@ Contents
 –Table Updated from the program code lines
 
 Add fields to the Custom DB Table
-• While creating the custom DB table, 
-include the Audit trail structure 
-ZGGL_DEV_STR_AUDIT_TRAIL
+• While creating the custom DB table, include the Audit trail structure ZGGL_DEV_STR_AUDIT_TRAIL
 
 Table Maintenance Generator
-• To be able to update these fields for 
-the table maintenance, create the 
-event
+• To be able to update these fields for the table maintenance, create the event
 
 
 Table Maintenance Generator
-• Create an event 01 and subroutine 
-F_UPDATE_AUDIT_FIELDS within 
-your TMG Function group
+• Create an event 01 and subroutine F_UPDATE_AUDIT_FIELDS within your TMG Function group
 
 
 Table Maintenance Generator
-• Call Include within the subroutine to 
-update these fields ZGGL_DEV_REP_AUDIT_TRAIL_FIELD
+• Call Include within the subroutine to update these fields ZGGL_DEV_REP_AUDIT_TRAIL_FIELD
 
 Table Maintenance Generator
 • Make these fields display only
@@ -56,12 +49,4 @@ zcl_ggl_dev_table_audit_trail=>update_fields(
  CHANGING
  ct_data = lt_dbtab
 ).
-
-
-
-
-
-
-
-
 
