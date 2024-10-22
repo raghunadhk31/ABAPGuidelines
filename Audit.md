@@ -8,8 +8,9 @@
 
 ## Add fields to the Custom DB Table
 • While creating the custom DB table, include the Audit trail structure ZGGL_DEV_STR_AUDIT_TRAIL
+<img width="405" alt="AT1" src="https://github.com/user-attachments/assets/532903e3-b43a-4997-977e-dcf026bffb5a">
 
-![Alt text](C:\Users\Kodali Raghunadh\OneDrive\Documents\GitHub\ABAPGuidelines\AT1.png)
+
 
 
 
